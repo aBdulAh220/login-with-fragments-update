@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".CallFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/medicine" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Medicine "
+        android:textColor="@color/purple_700"
+        android:textSize="25dp" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="If You want to call Us and want to get Information about our medicince then call us"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        android:textColor="@color/Home"
+        />
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="This is Our Number 0123456789"
+      android:textSize="15dp"
+      android:textColor="@color/Home"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_number"
+        android:hint="Enter Phone Number"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:inputType="phone"
+        />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/bt_call"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_call"
+        android:background="@drawable/bg_round"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".register">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center"
+        android:src="@drawable/medicine"
+        />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine "
+        android:gravity="center"
+        android:textSize="28dp"
+        android:textColor="@color/purple_700"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#EBD4003C"
+        android:id="@+id/txt1"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit4"
+        android:hint="Full Name"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_margin="9dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_person"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit9"
+        android:hint="Email Address"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:drawableLeft="@drawable/ic_email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit"
+        android:hint="Password"
+        android:background="@color/purple_200"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:padding="9dp"
+        android:drawableLeft="@drawable/ic_lock"/>
+
+    <Button
+        android:id="@+id/btn_signup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="SignUp"
+        android:textSize="15dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Register?"
+        android:textSize="19dp"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:textColor="#B3002A"/>
+
+    <Button
+        android:id="@+id/btnsignin25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="Sign In"
+        android:textSize="15dp" />
+
+</LinearLayout>

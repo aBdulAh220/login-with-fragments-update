@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/medicine" />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Medicine "
+        android:gravity="center"
+        android:textSize="25dp"
+        android:textColor="@color/purple_700"
+        />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@color/purple_200"
+        android:drawableLeft="@drawable/ic_person"
+        android:hint="Full Name"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@color/purple_200"
+        android:drawableLeft="@drawable/ic_email"
+        android:hint="Email Address"
+        android:padding="10dp"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@color/purple_200"
+        android:drawableLeft="@drawable/ic_lock"
+        android:hint="Password"
+        android:padding="9dp"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/btn_signup2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="SignUp"
+        android:textSize="11dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Register?"
+        android:textSize="13dp"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:textColor="#B3002A"/>
+
+    <Button
+        android:id="@+id/btnsignin25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/button"
+        android:text="Sign In"
+        android:textSize="11dp" />
+
+
+</LinearLayout>
