@@ -13,7 +13,6 @@
         android:layout_height="150dp"
         android:layout_gravity="center"
         android:src="@drawable/medicine" />
-
     <TextView
         android:id="@+id/text"
         android:layout_width="match_parent"
@@ -22,7 +21,6 @@
         android:text="Medicine "
         android:textColor="@color/purple_700"
         android:textSize="25dp" />
-
     <Space
         android:layout_width="match_parent"
         android:layout_height="29dp"/>
@@ -56,5 +54,7 @@
         android:textSize="11dp"
 
         />
+
+
 
 </LinearLayout>

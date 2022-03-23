@@ -56,12 +56,13 @@
         android:hint="Password"
         android:padding="9dp"
         android:textColor="@color/white" />
+
     <Button
         android:id="@+id/btn_signup2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/button"
         android:text="SignUp"
         android:textSize="11dp" />
@@ -79,11 +80,11 @@
         android:id="@+id/btnsignin25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginRight="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:background="@drawable/button"
         android:text="Sign In"
         android:textSize="11dp" />
 
-
 </LinearLayout>
+
