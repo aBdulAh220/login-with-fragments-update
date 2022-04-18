@@ -21,7 +21,7 @@
         android:text="Medicine "
         android:gravity="center"
         android:textSize="28dp"
-        android:textColor="@color/purple_700"
+        android:textColor="@color/Home"
         />
     <TextView
         android:layout_width="match_parent"
